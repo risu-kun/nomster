@@ -1,0 +1,28 @@
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #D1A545;
+  -webkit-box-shadow: 1px 1px 2px 0 #D1A545;
+  box-shadow: 2px 4px 4px 0 #D1A545;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.navbar.navbar-inverse {
+  background: url('/assets/stardust.png');
+  border-radius: 0;
+  box-shadow: 0px 4px 4px #D1A545;
+}
+
+body {
+	background: url('/assets/food.png');
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+}
