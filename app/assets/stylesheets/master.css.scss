@@ -10,11 +10,19 @@
   padding: 20px;
 }
 
+.navbar.navbar-inverse .navbar-brand {
+    color: #66ABFF;
+    font-family: 'amaticbold', script;
+    font-size: 300%;
+    letter-spacing: 3px;
+}
+
 .navbar.navbar-inverse {
   background: url('/assets/stardust.png');
   border-radius: 0;
   box-shadow: 0px 4px 4px #D1A545;
 }
+
 
 body {
 	background: url('/assets/food.png');
