@@ -46,6 +46,7 @@
 
 	<div>
 		<% @place.photos.each do |photo| %>
+			<%= image_tag(photo.picture) %>
 			<p><%= photo.caption %></p>
 		<% end %>
 	</div>
