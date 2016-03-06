@@ -1,12 +1,17 @@
 .booyah-box {
-  -moz-box-shadow: 2px 4px 4px 0 #D1A545;
-  -webkit-box-shadow: 2px 4px 4px 0 #D1A545;
-  box-shadow: 2px 4px 4px 0 #D1A545;
+  -moz-box-shadow: 2px 4px 4px 0 #D1A045;
+  -webkit-box-shadow: 2px 4px 4px 0 #D1A045;
+  box-shadow: 2px 4px 4px 0 #D1A045;
   background: #FFDFA4;
   border-radius: 1em;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 20px 20px;
+  blockquote {
+    box-shadow: 2px 4px 4px 0 #F2D192;
+    -moz-box-shadow: 2px 4px 4px 0 #F2D192;
+    -webkit-box-shadow: 2px 4px 4px 0 #F2D192;
+  }
 }
 
 .clear {
@@ -37,6 +42,15 @@
   height: 300px;
 }
 
+a {
+  color: #2464B2;
+}
+
+a:hover {
+  color: #66ABFF;
+  text-decoration: none;
+}
+
 body {
 	background: url('/assets/food.png');
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -44,11 +58,13 @@ body {
 }
 
 blockquote {
-  -moz-box-shadow: 2px 4px 4px 0 #D1A545;
-  -webkit-box-shadow: 2px 4px 4px 0 #D1A545;
-  box-shadow: 2px 4px 4px 0 #D1A545;
+  
   background: #FFDFA4;
+  border: 1px #F2D192 solid;
   border-radius: 0.5em;
+  -moz-box-shadow: 2px 4px 4px 0 #D1A045;
+  -webkit-box-shadow: 2px 4px 4px 0 #D1A045;
+  box-shadow: 2px 4px 4px 0 #D1A045;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 20px 20px;
